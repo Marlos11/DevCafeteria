@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cafeteria</title>
+</head>
+
+<body>
+    <!-- inicio header -->
+    <header id="header">
+        <section>
+            <!--  <div class="close"></div>
+            <span class="material-symbols-outlined" onclick="showMenu()"> menu </span>  -->
+            <!--    <span class="material-symbols-outlined" > close  </span> -->
+            <a href="#" class="logo">
+                <img src="./assets/logo.png" alt="logo">
+
+            </a>
+
+            <div id="menuBar">
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+
+                <nav class="navBar" id="navBar">
+                    <a href="#">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#review">Avaliações</a>
+                    <a href="#address">Endereço</a>
+                </nav>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+
+
+            <div class="icons">
+                <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
+                    alt="search--v1" />
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
+                    alt="shopping-cart--v1" />
+            </div>
+
+        </section>
+    </header>
+    <!-- final header -->
+
+    <!-- inicio Main -->
+    <main id="home-container">
+        <section id="home">
+            <div class="content">
+                <h3> O melhor café da região </h3>
+                <p>Descubra o charme da nossa cafeteria, onde cada xícara é uma experiência única. Com grãos
+                    selecionados e um ambiente acolhedor, convidamos você a saborear momentos especiais conosco. Seja
+                    bem-vindo e desfrute do melhor café da região."</p>
+                <a href="#" class="btn">Pegue o seu agora </a>
+
+            </div>
+
+        </section>
+    </main>
+    <!-- final main-->
+
+    <!--Inicio section about-->
+    <section class="about" id="about">
+
+        <h2 class="title">Sobre<span>Nós</span></h2>
+        <div class="row">
+            <div class="container-img">
+                <img src="./assets/about-img.jpg" alt="sobre-nos">
+
+            </div>
+            <div class="content">
+                <h3>O que faz nosso café especial</h3>
+                <p>O que faz o nosso café especial é a atenção dedicada a cada etapa do processo, desde a seleção dos
+                    grãos até a preparação final da xícara. Utilizamos grãos cuidadosamente selecionados, torrados com
+                    maestria para realçar seus sabores naturais. Além disso, nosso compromisso com a qualidade se
+                    reflete no cuidado com o serviço e na criação de um ambiente acolhedor, onde cada cliente se sente
+                    valorizado e bem cuidado.</p>
+
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+        </div>
+
+    </section>
+    <!--Final section about-->
+    <!-- Inicio section menu-->
+    <section class="menu" id="menu">
+        <h2 class="title">
+            Nosso <span>menu</span>
+        </h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/menu-1.png" alt="item-1">
+                <h3>Café coado</h3>
+                <div class="price">
+                    R$:9,99 <span>R$:12,99</span>
+                    <a href="#" class="btn">Adicionar ao carinho </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/menu-2.png" alt="item-1">
+                <h3>Café Arábica Intenso</h3>
+                <div class="price">
+                    R$:19,99 <span>R$:29,99</span>
+                    <a href="#" class="btn">Adicionar ao carinho </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/menu-3.png" alt="item-1">
+                <h3>Café Arábica</h3>
+                <div class="price">
+                    R$:15,99 <span>R$:21,99</span>
+                    <a href="#" class="btn">Adicionar ao carinho </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/menu-4.png" alt="item-1">
+                <h3>Café Mocado</h3>
+                <div class="price">
+                    R$:15,99 <span>R$:21,99</span>
+                    <a href="#" class="btn">Adicionar ao carinho </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/menu-5.png" alt="item-1">
+                <h3>Café Clássico</h3>
+                <div class="price">
+                    R$:9,99 <span>R$:12,99</span>
+                    <a href="#" class="btn">Adicionar ao carinho </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/menu-6.png" alt="item-1">
+                <h3>Café Caramelo</h3>
+                <div class="price">
+                    R$:12,99 <span>R$:15,99</span>
+                    <a href="#" class="btn">Adicionar ao carinho </a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Final section menu -->
+
+    <!--Inicio avaliações-->
+    <section class="review" id="review">
+        <h2 class="title"> Nossos<span>Clientes</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/quote-img.png" alt="">
+                <p>Frequento esta cafeteria há anos e sempre me impressiono com a consistência e qualidade do café. Os
+                    baristas são verdadeiros artistas, e cada xícara é uma obra-prima. Recomendo a todos os amantes de
+                    café!.</p>
+                <img src="./assets/Larissa.jpg" class="user" alt="">
+                <h3>Larissa Manoela</h3>
+                <div class="stars"></div>
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/color/48/star-half-empty.png"
+                    alt="star-half-empty" />
+
+            </div>
+            <div class="box">
+                <img src="./assets/quote-img.png" alt="">
+                <p> Esta cafeteria se tornou meu refúgio diário. O café é excepcionalmente delicioso, com uma variedade
+                    de opções que sempre me surpreendem. Além disso, o ambiente acolhedor e o serviço atencioso me fazem
+                    sentir em casa.</p>
+                <img src="./assets/jerson.png" class="user" alt="">
+                <h3>jerson Chagas</h3>
+                <div class="stars"></div>
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/color/48/star-half-empty.png"
+                    alt="star-half-empty" />
+
+            </div>
+            <div class="box">
+                <img src="./assets/quote-img.png" alt="">
+                <p>Como um apreciador exigente de café, posso dizer que esta cafeteria é simplesmente imbatível. Os
+                    grãos são cuidadosamente selecionados e a torra é perfeita, resultando em uma bebida que é um
+                    verdadeiro deleite para os sentidos. Uma experiência que nunca desaponta.</p>
+                <img src="./assets/Paulo.png" class="user" alt="">
+                <h3>Paulo Henrique</h3>
+                <div class="stars"></div>
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/emoji/48/star-emoji.png" alt="star-emoji" />
+                <img width="48" height="48" src="https://img.icons8.com/color/48/star-half-empty.png"
+                    alt="star-half-empty" />
+
+            </div>
+
+
+        </div>
+    </section>
+    <!--final avaliações-->
+
+    <!--Inicio section-->
+    <section class="address" id="address">
+        <h2 class="title">Nosso <span>Endereço</span>
+        </h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5175.512635417152!2d-46.53495737548121!3d-23.473443801296064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5dccd382de3%3A0x3cce838d00e74f55!2zQ2Fmw6kgbWHDp8Oj!5e0!3m2!1spt-BR!2sbr!4v1711725224706!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!--Final section-->
+
+
+    <!--Inicio footer-->
+    <footer class="footer">
+        <div class="social-midia">
+            <img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png"
+                alt="instagram-new--v1" />
+            <img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1" />
+            <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" />
+
+        </div>
+    </footer>
+    <!--Final footer-->
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
